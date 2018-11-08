@@ -1,0 +1,74 @@
+html {
+    font-family: Roboto;
+    color: #fff;
+    background-color: #111;
+}
+
+.title {
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.container {
+    width: 390px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.settings, .main {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.settings {
+    margin-bottom: 20px;
+}
+
+.item {
+    background-color: #222;
+    color: #fff;
+}
+
+.row-labels {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.row-configure {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.row-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 40px;
+    line-height: 40px;;
+    font-size: 30px;
+}
+
+.row-do {
+    display: grid;
+    height: 40px;
+    line-height: 40px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.row-timer {
+    display: grid;
+    height: 70px;
+    line-height: 65px;
+    font-size: 65px;
+    font-weight: bold;
+}
