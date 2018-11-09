@@ -7,29 +7,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 </head>
 <body>
     <div class="title">Pomodoro Clock</div>
     <div class="container">
-        <div class="settings">
-            <div class="row-labels">
-                <div class="item">Session</div>
-                <div class="item">Break</div>
-            </div>
-            <div class="row-configure">
-                <div class="item">–</div>
-                <div class="item">25</div>
-                <div class="item">+</div>
-                <div class="item">–</div>
-                <div class="item">5</div>
-                <div class="item">+</div>
-            </div>
-        </div>
         <div class="main">
-            <div class="row-buttons">
-                <div class="item"><i class="fa fa-play" aria-hidden="true"></i></div>
-                <div class="item"><i class="fa fa-refresh" aria-hidden="true"></i></div>
-            </div>
             <div class="row-do">
                 <div class="item">Session</div>
             </div>
@@ -37,8 +20,24 @@
                 <div class="item">25:00</div>
             </div>
             <div class="row-buttons">
-                <div class="item"><i class="fa fa-pause" aria-hidden="true"></i></div>
-                <div class="item"><i class="fa fa-stop" aria-hidden="true"></i></div>
+                <div class="item"><button><i id="play" class="fa fa-play" aria-hidden="true"></i></button></div>
+                <div class="item"><button><i id="pause" class="fa fa-pause" aria-hidden="true"></i></button></div>
+                <div class="item"><button><i id="stop"i class="fa fa-stop" aria-hidden="true"></i></button></div>
+                <div class="item"><button><i id="reset" class="fa fa-refresh" aria-hidden="true"></i></button></div>
+            </div>
+        </div>
+        <div class="settings">
+            <div class="row-labels">
+                <div class="item">Session</div>
+                <div class="item">Break</div>
+            </div>
+            <div class="row-configure">
+                <div class="item"><button id="dec-session">–</button></div>
+                <div class="item" id="session">25</div>
+                <div class="item"><button id="inc-session">+</button></div>
+                <div class="item"><button id="dec-break">–</button></div>
+                <div class="item" id="break">5</div>
+                <div class="item"><button id="inc-break">+</button></div>
             </div>
         </div>
     </div>
