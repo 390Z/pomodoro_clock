@@ -13,11 +13,11 @@
     <div class="title">Pomodoro Clock</div>
     <div class="container">
         <div class="main">
-            <div class="row-do">
-                <div class="item">Session</div>
+            <div class="row-session">
+                <div class="item" id="session">Work</div>
             </div>
             <div class="row-timer">
-                <div class="item">25:00</div>
+                <div class="item" id="time">25:00</div>
             </div>
             <div class="row-buttons">
                 <div class="item"><button><i id="play" class="fa fa-play" aria-hidden="true"></i></button></div>
@@ -28,20 +28,20 @@
         </div>
         <div class="settings">
             <div class="row-labels">
-                <div class="item">Session</div>
-                <div class="item">Break</div>
+                <div class="item">Work</div>
+                <div class="item">Rest</div>
             </div>
             <div class="row-configure">
-                <div class="item"><button id="dec-session">–</button></div>
-                <div class="item" id="session">25</div>
-                <div class="item"><button id="inc-session">+</button></div>
-                <div class="item"><button id="dec-break">–</button></div>
-                <div class="item" id="break">5</div>
-                <div class="item"><button id="inc-break">+</button></div>
+                <div class="item"><button id="dec-work">–</button></div>
+                <div class="item" id="work">25</div>
+                <div class="item"><button id="inc-work">+</button></div>
+                <div class="item"><button id="dec-rest">–</button></div>
+                <div class="item" id="rest">5</div>
+                <div class="item"><button id="inc-rest">+</button></div>
             </div>
         </div>
     </div>
-
+    
     <script src="scripts.js"></script>
 </body>
 </html>
