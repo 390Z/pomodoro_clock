@@ -88,3 +88,8 @@ button:active {
 button:focus {
     outline: none;
 }
+
+.title, .settings {
+    opacity: 1;
+    transition: 1s;
+}
